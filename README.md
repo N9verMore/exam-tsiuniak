@@ -43,6 +43,15 @@
 
 > Using Jest a delightful JavaScript Testing Framework creata unit test for file in libs/variant10.js file
 
+## Variant 11:
+
+> Using Jest a delightful JavaScript Testing Framework creata unit test for file in libs/variant11.js file
+
+## Variant 10:
+
+> Using Moacha in the browser
+   Implement unit tests for libs/variant12. functions according to Test Development Driven (BDD) concepts
+
 ### Acceptance criteria
 * Understand basic concepts of Test Development
 * Setting up the testing environment
