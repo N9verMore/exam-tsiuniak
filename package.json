@@ -1,0 +1,18 @@
+{
+  "name": "exam-tsiuniak",
+  "version": "1.0.0",
+  "description": "Final exam for checking student knowledge and practical skills",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:variant1": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant1.test.js",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "test:variant1:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant1.test.js --coverage --collectCoverageFrom=libs/variant1.js"
+  },
+  "keywords": ["testing", "jest", "exam"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
